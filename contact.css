@@ -1,0 +1,113 @@
+/* facilities.css */
+
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light background color */
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #007bff; /* Primary blue color */
+    padding: 20px 0;
+}
+
+.header .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav {
+        text-align: center;
+    }
+
+    .nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header, .facilities-content {
+    text-align: center;
+}
+
+.facilities-content {
+    margin: 20px auto;
+}
+
+.facility-image {
+    margin: 20px 0;
+}
+/* Add this to your style.css or contact.css file */
+
+body, h1, p, form {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Add this if you want to center the form horizontally */
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+
+/* Add other styles as needed */
+
