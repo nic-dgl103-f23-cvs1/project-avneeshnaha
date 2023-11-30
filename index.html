@@ -6,7 +6,128 @@
     <title>Ascent Physiotherapy</title>
     <!-- Link to the external CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
-    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            margin: 0 15px;
+        }
+
+        .intro {
+            background-color: #007bff;
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .cta {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 1em;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -19,12 +140,43 @@
             <a href="facilities.html">Facilities</a>
         </nav>
         <img src="images\_DSC6838-Edit@2x (1).jpg" alt="Ascent Physiotherapy Team">
-        <p>Ascent Physiotherapy is a full service physiotherapy clinic located in Comox, BC. We offer Physiotherapy, including Manual/Manipulative Therapy, IMS, Acupuncture, Radial Shockwave Therapy and exercise prescription including Personal Training to the residents of the Comox Valley and surrounding area.</p>
+        <p>Ascent Physiotherapy is a full-service physiotherapy clinic located in Comox, BC. We offer Physiotherapy, including Manual/Manipulative Therapy, IMS, Acupuncture, Radial Shockwave Therapy, and exercise prescription including Personal Training to the residents of the Comox Valley and surrounding area.</p>
     </header>
+
+    <!-- Section 1 -->
+    <div class="intro">
+        <h2>Experience Excellence in Physiotherapy</h2>
+        <p>At Ascent Physiotherapy, we are dedicated to providing exceptional care and personalized treatment to help you achieve your health goals. Discover a new level of well-being with our experienced team and state-of-the-art facilities.</p>
+    </div>
+
+    <!-- Section 2 -->
+    <section>
+        <h2>Our Services</h2>
+        <p>Explore a range of physiotherapy services tailored to meet your individual needs. Our team of skilled professionals is committed to delivering high-quality care and supporting your well-being.</p>
+    </section>
+
+    <!-- Section 3 -->
+    <section>
+        <h2>Meet Our Experienced Team</h2>
+        <p>Get to know our team of skilled physiotherapists who are passionate about helping you on your rehabilitation journey. With a wealth of experience and expertise, we provide personalized care to support your well-being.</p>
+    </section>
+
+    <!-- Section 4 -->
+    <section>
+        <h2>State-of-the-Art Facilities</h2>
+        <p>Experience physiotherapy in a modern and comfortable environment. Our state-of-the-art facilities are equipped with the latest technology to enhance your rehabilitation and ensure your comfort.</p>
+    </section>
+
+    <!-- Section 5 -->
+    <section>
+        <h2>Community Engagement</h2>
+        <p>Ascent Physiotherapy actively engages with the community. Discover our outreach programs and events designed to promote health and wellness in Comox and beyond. Join us in building a healthier community together.</p>
+    </section>
+
     <div class="cta">
         <h2>Book Now!</h2>
         <p>Book now for an appointment with us!</p>
-        <!-- Appointment Form Start -->
+
         <form action="process-appointment.php" method="post">
             <label for="fullname">Full Name:</label>
             <input type="text" id="fullname" name="fullname" required>
@@ -43,13 +195,10 @@
 
             <button type="submit">Book Now</button>
         </form>
-        <!-- Appointment Form End -->
     </div>
 
-
-
     <footer>
-        <p>&copy; ©Kendra Mulligan Physical Therapist Corp 2010</p>
+        <p>&copy; Kendra Mulligan Physical Therapist Corp 2010</p>
     </footer>
 </body>
 </html>
