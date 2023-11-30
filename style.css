@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 .header {
-    background-color: #4663ac; /* Dark blue color */
+    background-color: #6d7ea9; /* Dark blue color */
     padding: 20px 0;
     display: flex;
     justify-content: space-between; /* Center the items horizontally */
@@ -217,28 +217,34 @@ body {
         margin-bottom: 20px;
     }
 }
-.footer-section.about {
-    background-image: url('images/thisisengineering-raeng-1-88FdpvAjg-unsplash (1).jpg');
-    background-size: cover;
-    background-position: center;
-    color: white; /* Set text color to white for better visibility */
-    padding: 250px; /* Add padding for better readability */
+.footer-section {
+    text-align: center;
 }
 
-.footer-section.about h3,
-.footer-section.about p {
-    position: relative;
-    z-index: 1;
+.footer-section h3 {
+    color: #001f2b; /* Add your desired color */
 }
 
-.footer-section.about img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(5%); /* Adjust the brightness to your liking */
-    z-index: 0;
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #333; /* Add your desired color */
+}
+
+.footer-section contact-form {
+    margin-top: 20px; /* Add some spacing from the previous section */
+}
+
+.footer-section contact-form p {
+    margin-bottom: 10px;
 }
 
