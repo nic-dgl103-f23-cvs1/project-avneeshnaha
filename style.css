@@ -1,0 +1,251 @@
+
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light background color */
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #6d7ea9; /* Dark blue color */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+}
+
+.header .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+/* ... (other existing styles remain unchanged) */
+
+
+.hero {
+    background: url('images/hero.jpg') center/cover no-repeat; /* Replace with your hero image */
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.hero h1,
+.hero p {
+    color: black;
+}
+
+.cta-button {
+    background-color: #c1d8f0; /* Blue color */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #d2deeb; /* Darker blue color on hover */
+    color: white;
+}
+
+.services {
+    background-color: #e1f1fd; /* Light background color */
+    padding: 60px 0;
+}
+
+.services h2 {
+    color: #4663ac; /* Primary blue color */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.service-card {
+    background-color: #c8d9ed; /* Light blue color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px); /* Add a subtle lift on hover */
+}
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.appointments {
+    padding: 60px 0;
+}
+
+.appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.appointment-table th, .appointment-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.appointment-table th {
+    background-color: #d2deeb; /* Light grey color */
+}
+
+/* Add these styles to your existing CSS */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services, .appointments, .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.appointment-table {
+    width: 100%;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 20px auto;
+}
+
+.compact-appointment-table {
+    width: 100%;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 20px auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-bottom {
+    background-color: #001f2b; /* Dark blue color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-section {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+.footer-section {
+    text-align: center;
+}
+
+.footer-section h3 {
+    color: #001f2b; /* Add your desired color */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #333; /* Add your desired color */
+}
+
+.footer-section contact-form {
+    margin-top: 20px; /* Add some spacing from the previous section */
+}
+
+.footer-section contact-form p {
+    margin-bottom: 10px;
+}
+
+
