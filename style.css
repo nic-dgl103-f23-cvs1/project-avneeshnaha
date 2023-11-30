@@ -217,3 +217,28 @@ body {
         margin-bottom: 20px;
     }
 }
+.footer-section.about {
+    background-image: url('images/thisisengineering-raeng-1-88FdpvAjg-unsplash (1).jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Set text color to white for better visibility */
+    padding: 250px; /* Add padding for better readability */
+}
+
+.footer-section.about h3,
+.footer-section.about p {
+    position: relative;
+    z-index: 1;
+}
+
+.footer-section.about img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(5%); /* Adjust the brightness to your liking */
+    z-index: 0;
+}
+
